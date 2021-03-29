@@ -123,12 +123,10 @@ class PlayerViewController: UIViewController {
         albumNameLabel.text = song.album
         artistNameLabel.text = song.artist
 
-
         viewHolder.addSubview(songNameLabel)
         viewHolder.addSubview(albumNameLabel)
         viewHolder.addSubview(artistNameLabel)
 
-        
         
         // Кнопки
         let previousButton = UIButton()
